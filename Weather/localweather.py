@@ -87,7 +87,7 @@ def main():
     delay = (run_at - now).total_seconds()
     if WEATHER_DOWNLOAD:
        print("Downloading data from Weather Underground")
-       url = requests.get('https://api.weather.com/v3/wx/forecast/daily/5day?geocode=39.74,-0.56&format=json&units=m&language=sp-SPAIN&apiKey=898d00e499d042e28d00e499d0d2e25b')
+       url = requests.get('https://api.weather.com/v3/wx/forecast/daily/5day?geocode=39.74,-0.56&format=json&units=m&language=sp-SPAIN&apiKey=')
        json_data = json.loads(url.text)
        observe = format(json.dumps(json_data))
        y = json_loads_byteified(observe)
@@ -119,8 +119,8 @@ def main():
            message = message_template.substitute(PERSON_NAME=name.title(), dia1=dia1, dia2=dia2, dia3=dia3, dia4=dia4, dia5=dia5, dia6=dia6, texto1m=texto1m, texto1n=texto1n, texto2m=texto2m, texto2n=texto2n, texto3m=texto3m, texto3n=texto3n, texto4m=texto4m, texto4n=texto4n, texto5m=texto5m, texto5n=texto5n, texto6m=texto6m, texto6n=texto6n)
            #print(message)
            #The mail addresses and password
-           sender_address = 'pableras84@hotmail.com'
-           sender_pass = 'Ra2013bL'
+           sender_address = '@hotmail.com'
+           sender_pass = ''
            receiver_address = email
            #Setup the MIME
            msg = MIMEMultipart()
