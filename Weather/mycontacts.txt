@@ -1,4 +1,3 @@
-Pablo pabblago@gmail.com 39.74 -0.26 Benavites
-MariaPilar mapibenet@gmail.com 39.74 -0.26 Benavites
-Javier javier_royo2@hotmail.com 39.74 -0.23 Almenara_Blau
-Leita laleom@gmail.com 37.98 -0.68 Torrevieja
+Name1 email1 latitud1 longitud1 Place1
+Name2 email2 latitud2 longitud2 Place2
+...
