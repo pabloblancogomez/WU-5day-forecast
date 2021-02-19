@@ -138,8 +138,8 @@ def main():
                 texto6n = texto6na.text
                 message = message_template.substitute(PERSON_NAME=name.title(), place=luga.title(), dia1=dia1, dia2=dia2, dia3=dia3, dia4=dia4, dia5=dia5, dia6=dia6, texto1m=texto1m, texto1n=texto1n, texto2m=texto2m, texto2n=texto2n, texto3m=texto3m, texto3n=texto3n, texto4m=texto4m, texto4n=texto4n, texto5m=texto5m, texto5n=texto5n, texto6m=texto6m, texto6n=texto6n)
                 #The mail addresses and password
-                sender_address = 'pableras84@hotmail.com'
-                sender_pass = 'Ra2013bL'
+                sender_address = '@hotmail.com'
+                sender_pass = ''
                 receiver_address = email
                 #Setup the MIME
                 msg = MIMEMultipart()
