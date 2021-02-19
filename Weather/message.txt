@@ -1,0 +1,20 @@
+Hola ${PERSON_NAME}, 
+
+La predicción meteorológica en ${place} para los próximos días es:
+
+	- ${dia1} por la mañana = ${texto1m}
+	- ${dia1} por la noche = ${texto1n}
+	- ${dia2} por la mañana = ${texto2m}
+	- ${dia2} por la noche = ${texto2n}
+	- ${dia3} por la mañana = ${texto3m}
+	- ${dia3} por la noche = ${texto3n}
+	- ${dia4} por la mañana = ${texto4m}
+	- ${dia4} por la noche = ${texto4n}
+	- ${dia5} por la mañana = ${texto5m}
+	- ${dia5} por la noche = ${texto5n}
+	- ${dia6} por la mañana = ${texto6m}
+	- ${dia6} por la noche = ${texto6n}
+
+Saludos,
+
+Pablo
